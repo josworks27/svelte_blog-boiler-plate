@@ -1,6 +1,7 @@
 {
-	"name": "blog",
+	"name": "blog boiler-plate",
 	"version": "0.0.1",
+	"author": "Seongcheol Jo<josworks27@gmail.com>",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "rimraf build && svelte-kit build",
