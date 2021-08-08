@@ -1,17 +1,17 @@
 import { publish } from 'gh-pages';
 
 publish(
-	'build', // path to public directory
+	'build',
 	{
-		branch: 'main',
-		repo: 'https://github.com/josworks27/blog.git', // Update to point to your repository
+		branch: 'main', // 배포할 기본 브랜치
+		repo: '깃헙 레포 url', // ex: https://github.com/josworks27/example.git
 		user: {
-			name: 'Seongcheol Jo', // update to use your name
-			email: 'josworks27@gmail.com' // Update to use your email
+			name: 'Seongcheol Jo',
+			email: 'josworks27@gmail.com'
 		},
 		dotfiles: true
 	},
 	() => {
-		console.log('Deploy Complete!');
+		console.log('✨ Github page에 배포가 완료되었습니다 ✨');
 	}
 );
