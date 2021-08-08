@@ -1,2 +1,3 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Iku_Jo's Blog</h1>
+
+<p>⚠️ 준비 중 입니다</p>
